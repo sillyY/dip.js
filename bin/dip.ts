@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import * as log from '../build/output/log';
 import arg from 'arg';
 ['react', 'react-dom'].forEach((dependency) => {

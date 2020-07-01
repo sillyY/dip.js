@@ -91,6 +91,8 @@ export default function loadConfig(
       userConfigModule.default || userConfigModule
     );
 
+    console.log(userConfig)
+
     if (Object.keys(userConfig).length === 0) {
       console.warn(
         chalk.yellow.bold('Warning: ') +

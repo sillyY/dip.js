@@ -3,14 +3,16 @@
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
+  "bin": {
+    "dip": "dist/bin/dip.js"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "gulp"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sillyY/dip.js.git"
   },
-  "author": "",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/sillyY/dip.js/issues"
@@ -22,11 +24,25 @@
     "chalk": "^4.1.0",
     "dotenv": "^8.2.0",
     "dotenv-expand": "^5.1.0",
-    "find-up": "^4.1.0"
+    "find-up": "^4.1.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/plugin-transform-runtime": "^7.10.1",
+    "@babel/preset-env": "^7.10.2",
     "@types/chalk": "^2.2.0",
     "@types/dotenv": "^8.2.0",
-    "@types/find-up": "^4.0.0"
+    "@types/find-up": "^4.0.0",
+    "@types/react": "^16.9.38",
+    "@types/react-dom": "^16.9.8",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-notifier": "^1.0.6",
+    "gulp-notify": "^3.2.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "typescript": "^3.9.5"
   }
 }
